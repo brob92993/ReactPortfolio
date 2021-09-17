@@ -1,13 +1,13 @@
   
 import React from "react";
-import Projects from "../utils/projects.json"
+import projects from "../utils/projects.json"
 import Row from "../components/Row"
 
 
 function Project() {
   return (
     <Row xs={1} md={2} className="g-4">
-      {Projects.map((project) => {
+      {projects.map((project) => {
         return (
           <div key={project.id} className="card">
             <img
