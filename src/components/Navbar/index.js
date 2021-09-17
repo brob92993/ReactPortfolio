@@ -5,13 +5,14 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+    <nav className="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+      
+      <Link className="navbar-brand text-light" to="/">
         Brian Robinson: React Portfolio
       </Link>
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li className="nav-item text">
             <Link
               to="/"
               className={
