@@ -47,7 +47,7 @@ Below you will see a screenshot of what the application looks like
 
   If you have any questions about the repo or application, open an issue or contact me directly at sample. More of my work can be found at [My Github](https://github.com/brob92993).
 
-  [Budget Tracker Repository](https://github.com/brob92993/ReactPortfolio.git)
+  [React Portfolio Repository](https://github.com/brob92993/ReactPortfolio.git)
 
   
   [Deployed application]()
