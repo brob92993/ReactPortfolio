@@ -1,6 +1,7 @@
   
 import React from "react";
 import { Row, Container } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Homepage() {
   return (

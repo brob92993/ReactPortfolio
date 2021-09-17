@@ -2,34 +2,42 @@
 import React from "react";
 import projects from "../utils/projects.json"
 import Row from "../components/Row"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, Button } from "react-bootstrap";
+
 
 
 function Project() {
   return (
-    <Row xs={1} md={2} className="g-4">
+    <Row xs={5} md={5} className="g-6">
       {projects.map((project) => {
         return (
-          <div key={project.id} className="card">
-            <img
+          <Card key={project.id} className="card">
+            <Card.Img
+              variant = "top"
               src={project.image}
-              className="card-img-top"
               alt={project.name + " screenshot"}
             />
-            <div className="card-body">
-              <h4 className="card-title">
-                <a href="./images/nine.png" target="_blank" rel="noreferrer">
+            <Card.Body>
+              <Card.Title className="card-title">
+                
                   {project.name}
-                </a>
-              </h4>
+              
+              </Card.Title>
               <h5 className="card-text">{project.description}</h5>
-              <h6>{project.tech}</h6>
+              <h6>Using {project.tech}</h6>
               <h6>
-                <a href={project.repo} target="_blank" rel="noreferrer">
+                <Button variant="light" href={project.repo} target="_blank" rel="noreferrer">
                   GitHub Repository
-                </a>
+                </Button>
+                <div></div>
+                <div></div>
+                <Button variant="light" href={project.link} target="_blank" rel="noreferrer">
+                  Application Link (If applicable)
+                </Button>
               </h6>
-            </div>
-          </div>
+             </Card.Body>
+          </Card>
         );
       })}
     </Row>

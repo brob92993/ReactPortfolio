@@ -1,30 +1,31 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container , Button } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
     return (
       <Container> 
       <div>
             <ul>
-            <li><a class="button white" href="tel:+19196087679">Phone: 919.608.7679</a></li>
+            <li> <Button variant="light" href="tel:+19196087679">Phone: 919.608.7679</Button></li>
             <div>
                 -
             </div>
 
-            <li><a class=" button white waves-effect waves-light btn-small black-text" href="mailto:brob92993@gmail.com">brob92993@gmail.com</a></li>
+            <li><Button variant="light" href="mailto:brob92993@gmail.com">brob92993@gmail.com</Button></li>
             <div>
                 -
             </div>
-            <li><a class="button white waves-effect waves-light btn black-text" href= "https://github.com/brob92993">Github Repository</a></li>
+            <li><Button variant="light" href= "https://github.com/brob92993">Github Repository</Button></li>
             <div>
                 -
             </div>
-            <li><a class="button white waves-effect waves-light btn black-text" href="https://linkedin.com/in/brob92993">LinkdIn Profile</a></li>
+            <li><Button variant="light" href="https://linkedin.com/in/brob92993">LinkdIn Profile</Button></li>
             <div>
                 -
             </div>
 
-            <li><a class="button white waves-effect waves-light btn black-text" href ="public/assets/Brian2021Resume.pdf">My Resume</a></li>
+            <li><Button variant="light" href ="public/assets/Brian2021Resume.pdf">My Resume</Button></li>
           </ul>
     </div>
     </Container> 
