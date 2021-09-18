@@ -14,7 +14,7 @@ function Homepage() {
 In October 2021, I completed a Certificate in Full Stack Web Development from UNC Charlotte where I learned best practices for designing powerful mobile-friendly websites and applications. I also learned how much I enjoy the coding process, from problem solving to group collaboration, and I am looking forward to starting my professional Web Development career.
     </p>
     <div className="text-center">
-      <Image src="img/headshot1.jpg" fluid />
+      <Image src="img/headshot1.jpg"/>
     </div>
     </Row>
     </Container>
