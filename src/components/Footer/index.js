@@ -7,12 +7,9 @@ function Footer() {
   return (
     <footer className="footer bg-white text-center">
 <li className="list-group-item">
- <a className="list-group-item list-group-item-action" href= "https://github.com/brob92993">View My Github Repository</a>
+ <a className="list-group-item list-group-item-action" href="tel:+19196087679">Phone: 919.608.7679</a>
 </li>
-<li className= "list-group-item"> 
- <a className="list-group-item list-group-item-action" href ="../../assets/Brian2021Resume.pdf">View My Resume</a>
-</li> 
-    </footer>
+</footer>
   );
 }
 
