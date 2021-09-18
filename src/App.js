@@ -15,6 +15,7 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
+          <Homepage/>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/projects" component={Project} />
           <Route exact path= "/contact" component = {Contact}/>
