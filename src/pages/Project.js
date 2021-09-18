@@ -16,6 +16,7 @@ function Project() {
           <Card key={project.id} className="card bg-dark">
             
             <Image
+              className= "w-75 rounded mx-auto d-block"
               variant = "card-img-top"
               src={project.image} 
               alt={project.name + " screenshot"}
