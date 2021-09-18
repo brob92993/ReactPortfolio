@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Homepage() {
   return (
-    <div className="bg-light">
+    <div className="bg-white">
     <h1 className="text-center">About Me</h1>
     <Container>
     <Row> 

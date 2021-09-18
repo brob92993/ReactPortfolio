@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark text-light bg-dark">
       
-      <Link className="navbar-brand text-light" to="/">
+      <Link className="navbar-brand navbar-dark text-light" to="/">
         Brian Robinson: React Portfolio
       </Link>
       <div>

@@ -26,9 +26,9 @@ An iteration of my portfolio using the React Application
 To start the app in the CLI : "npm start"  
 
 
-Below you will see a screenshot of what the application looks like
+Below you will see a screenshot of what the homepage of the application looks like. From this page, you have links to the project and contacts page.
 
-![Screenshot]()
+![Screenshot](public/img/PortfolioSS.PNG)
 
 
   
