@@ -5,7 +5,7 @@
         "description": "The Team Profile Generator is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. There is also a unit test for this application so that you can ensure that each part of the code works.",
         "link": "https://github.com/brob92993/TeamProfileGen.git",
         "repo": "https://github.com/brob92993/TeamProfileGen.git",
-        "image": "../../img/FullTeamProfileWalkthrough.gif",
+        "image": "ReactPortfolio/img/FullTeamProfileWalkthrough.gif",
         "tech": "JavaScript, NPM, GitBash, HTML, Object-Oriented Programming, Node"
     },
     {
@@ -14,7 +14,7 @@
         "description": "Password Generator is an application that enables the user to obtain greater password security by generating a password based on criteria that they’ve selected. The password must be between 8 and 128 characters, with the option to include numbers, letters (uppercase & lowercase), and special characters. This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.",
         "link": "https://brob92993.github.io/Week3-PasswordGen/",
         "repo": "https://github.com/brob92993/Week3-PasswordGen.git",
-        "image": "../../img/Screenshot-Password-Gen.png",
+        "image": "ReactPortfolio/img/Screenshot-Password-Gen.png",
         "tech": "HTML, CSS, JavaScript"
     },
     {
@@ -23,7 +23,7 @@
         "description": "I was tasked with building the back end for an e-commerce site so that the company can compete with other e-commerce companies. I configured a working Express.js API and used Sequelize to interact with a MySQL database.",
         "link": "https://github.com/brob92993/Back-End-E-Commerce.git",
         "repo": "https://github.com/brob92993/Back-End-E-Commerce.git",
-        "image": "../../img/ECommerceWalkthrough.gif",
+        "image": "ReactPortfolio/img/ECommerceWalkthrough.gif",
         "tech": "Express, MySQL, GitBash, JavaScript, Insomnia"
     },
     {
@@ -33,7 +33,7 @@
         "description": "This was a group project done with 3 other classmates. We sought out to create an application that users would be able to purchase cat and dog accessories. The user can go through the existing list of cat and dog items, and when the user selects one of the items, the details and price about that specific item are populated.",
         "link": "https://cooper-and-dans-toybox.herokuapp.com/",
         "repo": "https://github.com/tloyzelle/Project-2.git",
-        "image": "../../img/CooperDanWalkthrough.gif",
+        "image": "ReactPortfolio/img/CooperDanWalkthrough.gif",
         "tech": "JavaScript, Node, Handlebars, MySQL, ExpressJS, Bulma, Insomnia"
     },
     {
@@ -42,7 +42,7 @@
         "description": "This is an progressive web application that will allow the user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total populates when brought back online..",
         "link": "https://github.com/brob92993/BudgetTracker.git",
         "repo": "https://github.com/brob92993/BudgetTracker.git",
-        "image": "../../img/BudgetWalkthrough.gif",
+        "image": "ReactPortfolio/img/BudgetWalkthrough.gif",
         "tech": "JsvaScript, Node, NPM, GitBash, HTML"
     }
         
