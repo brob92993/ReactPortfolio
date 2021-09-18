@@ -26,9 +26,11 @@ An iteration of my portfolio using the React Application
 To start the app in the CLI : "npm start"  
 
 
-Below you will see a screenshot of what the homepage of the application looks like. From this page, you have links to the project and contacts page.
+Below you will see a screenshot of what the homepage & the projects page of the application looks like. From the homepage, you have links to the project and contacts page, as well as a contact number located in the footer. In the projects page, you will see a screenshot, details, and links to projects that i have completed.
 
 ![Screenshot](public/img/PortfolioSS.PNG)
+
+![Screenshot2](public/img/PortfolioSS1.PNG)
 
 
   
